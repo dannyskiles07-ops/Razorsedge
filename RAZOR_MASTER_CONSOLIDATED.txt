@@ -1,0 +1,151 @@
+========================================================================
+FILE 1: Razor01.txt
+========================================================================
+
+========================================================================
+              PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+            SYSTEM ARCHITECTURE BLUEPRINT & LOGIC FILE
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+USDA_Climate_Zone: Zone 8b
+Admin_Passkey: admin
+Background_Worker_Cron: 2-Hour Dynamic Execution Thread
+
+========================================================================
+1. VISUAL INTERFACE LAYER & STAGE PHYSICS
+========================================================================
+[UI_TYPOGRAPHY]
+Main_Header_Title: "RAZOR'S EDGE"
+Styling: Horizontally stretched panoramic layout, ultra-thick, weighty, 
+         streamlined font, aggressively right-slanted (italicized razor blade effect).
+Constraints: Hard margin clamping on horizontal boundaries to prevent R/E clipping.
+Global_Date_Tile: Locked permanently below title, displays: Day of Year / Days Left.
+
+[UI_CONTAINERS]
+Type: Glassmorphism panels.
+Aesthetic: Semi-transparent frosted glass overlay blocks, floating on top of wallpaper.
+
+[STAGE_1_HOME_SCREEN]
+Background_Wallpaper: Ground-level garden asset (wooden raised beds, tomato clusters,
+                      central greenhouse) viewed from behind a closed wooden entry gate.
+Shader_Logic: Single-photo background morphs dynamically based on 2-hour scoring index.
+              - 10/10 Day: High-contrast amber-gold dawn tint overlay.
+              - 0/10 Day: Cool, muted gray-slate exposure drop.
+              - Night Checks: Deep indigo moonlit nightscape invert layer.
+Foreground_Readouts: Sunlight, Moonlight, Humidity, Rain, and Grow Day 1-10 meters.
+Navigation: Centered massive "LET'S GET INTO THE GARDEN" body button. 
+            Centered "ADMIN" gateway tab inside the layout footer.
+
+[STAGE_2_INPUT_SCREEN]
+Trigger: Activated by clicking "Let's Get Into the Garden" body button.
+Background_Wallpaper: User's exact ground-level garden image (un-animated wallpaper).
+Interface_Elements: Fingerprint-sized (48dp) circular species buttons stacked vertically 
+                    in a centered single file line. Each circle contains a stylized 
+                    minimalist graphic of that crop's fruit or blossom.
+Queue_Logic: Icons appear based on active seasonal questionnaire parameters. Completed 
+             icons hide immediately from the queue upon hitting the body submit button.
+
+[STAGE_3_POST_SUBMIT_SCREEN]
+Trigger: Fires automatically when the Stage 2 input checklist queue drops to empty.
+Background_Wallpaper: Skewed bird's-eye perspective observing identical garden beds 
+                      from 15ft above the ground while keeping the true horizon visible.
+Aesthetic: Input panels dissolve cleanly; locks down layout till next sun period.
+Text_Banner: Static encouraging headline reading: "Keep up the good work. All tasks complete."
+
+========================================================================
+2. FOREGROUND INPUT BUBBLES & HIGH-CONTRAST PALETTE
+========================================================================
+[INPUT_TRACKS]
+- PLANT VITALITY: Green circle buttons (1-10 numerical indicators).
+- SUN EXPOSURE: Yellow circle buttons (1-10 numerical indicators).
+- RAIN ACCUMULATION: Blue circle buttons (1-10 numerical indicators).
+- SOIL MOISTURE: Brown circle buttons (1-10 numerical indicators).
+- RICE STRAW DAMPNESS: Golden yellow circle buttons (1-10 numerical indicators).
+- FORECAST ACCURACY RATER: Royal Purple circle buttons (1-10 numerical indicators).
+Text_Style: Deep, high-contrast crisp text colors tailored inside each matching bubble.
+
+========================================================================
+3. PRESCRIPTIVE IRRIGATION & BOTANICAL DATA MATRIX
+========================================================================
+[IRRIGATION_ENGINE]
+Metric_Unit: "Seconds of Water" (Human-executable tracking timeline via digital timer).
+Flow_Constant: 50 Seconds of water flow = Approximately 5.0 Liquid Gallons.
+Safety_Regulator: Strict 24-hour variance cap clamped to a maximum of +/- 25% of baseline.
+
+[BOTANICAL_SPREADSHEET_DATABASE]
+Status: Fully populated, static baseline sheet (no empty cells permitted).
+Memory_Loop: Year-over-year microclimate offset weighting overlay. Compares predicted 
+             soil dampness vs ground truth to permanently adjust for localized shade 
+             and drainage profiles.
+- CANNABIS_INDICA / SATIVA: Baseline 50s (5.0 Gallons standard target)
+- SOLANUM_LYCOPERSICUM (Tomato): Baseline 40s (4.0 Gallons standard target)
+- CUCURBITA_PEPO (Pumpkin): Baseline 35s (3.5 Gallons standard target)
+- CAPSICUM_ANNUUM (Pepper): Baseline 25s (2.5 Gallons standard target)
+- RUBUS_FRUTICOSUS (Berry): Baseline 45s (4.5 Gallons standard target)
+
+========================================================================
+4. BACKGROUND ENVIRONMENTAL SCORING MATRIX
+========================================================================
+[SOLAR_INTENSITY_ALGORITHM]
+Scale: 0 to 10 localized linear range.
+Boundaries: Summer Solstice zenith (71.0 deg angle) = 10.0 / 10 Max Baseline.
+            Winter Solstice minimum (24.1 deg angle) = 0.0 / 10 Absolute Floor.
+
+[DYNAMIC_HISTORICAL_BASELINE]
+Sources: Multi-source aggregation (Weather Underground + NCEI National Labs + PRISM OSU).
+Structure: Split into symmetrical Morning and Evening evaluation arrays.
+Temporal_Decay_Weights: Records <= 10 years old (2016-2026) get a weight of 1.0.
+                        Records > 10 years old (Pre-2016) get a weight of 0.75.
+
+[REAL_TIME_FORECAST_AGGREGATOR]
+Sources: Multi-model predictive blending (NWS + AccuWeather + WU).
+Rain_Gate_Intercept: If aggregate models project precipitation > 0.05 inches between 
+                     morning and evening reports, the score hard-clamps to 1.0 automatically.
+
+[HUMIDITY_INTERLOCKS]
+Relative_Humidity_Scale: 0 = Below 10% (Hyper-dry air); 10 = Above 95% (Saturated fog/rain).
+Bone_Dry_Circuit_Breaker: Rainfall Index = 0.0 IF AND ONLY IF Rain volume = 0 AND 
+                          Relative Humidity drops completely below 25%.
+
+[WIND_VECTOR_TRACKING]
+Sustained_Scale: 0 = Calm air; 10 = Higher than 15mph sustained.
+Reversed_Vectors: N = blowing TO the North FROM the South; NW = blowing TO the Northwest.
+Alarm_Limits: Forecast gusts > 15mph force a red high-visibility warning text output under wind.
+Grow_Day_Penalty: Sustained wind > 5mph for > 4 hours OR any gust > 15mph triggers a 
+                  transpiration modifier that actively reduces the total 24hr Grow Day Score.
+
+[TEMPERATURE_PROPORTIONAL_DECAY]
+Daytime_Optimal: 80 deg F to 90 deg F = Perfect thermal scaling.
+Nighttime_Optimal: Sustained above 55 deg F (Warmer nights optimize score).
+Heat_Penalty: Any reading crossing above 90 deg F dynamically degrades the Master 
+              Temperature Score proportionally to the degree increase.
+
+[PREDICTED_GROW_DAY_SCORE]
+Metric: 1-10 integrated evaluation index for each 24hr loop.
+Optimal_State (10/10): Maximum available solar intensity, perfect localized humidity, 
+                       zero rain forecast, optimal crop temperature curves, minimal 
+                       evaporative wind stress, and optimal moonrise timelines.
+
+[SUPERSTITION_ALMANAC_DATABASE]
+Content: Ed Hume lunar notes + traditional Farmers Almanac predictions combined into an offline table.
+Sync_Cycle: Pre-compiled and cached locally; requires online refresh only once every 200 days.
+Output: Pushes 1 or 2 targeted agricultural comments directly onto the home screen interface.
+
+========================================================================
+5. ADMINISTRATIVE HISTORY & SECURITY CORE
+========================================================================
+[ADMIN_CALENDAR_LOGGING]
+Layout: Horizontal left-to-right scrollable calendar block layout (Newest = Left).
+Cell_Data: Display includes Numerical Day, Actual recorded High/Low Temp, Final logged 
+           Grow Day Score, and AM Predicted Grow Day Score baseline row for model review.
+Compression_Protocol: 16-Bit Byte Mask file compression system. Flat visual cell redrawing 
+                      purges temporary caching to ensure zero file clutter over years of logs.
+Global_Location_Link: Small text link named "Location" hard-coded to the absolute bottom of 
+                      the Admin panel to allow coordinate resets via password authentication.
+========================================================================
+                    [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================
