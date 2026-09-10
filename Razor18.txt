@@ -1,0 +1,73 @@
+========================================================================
+       PROJECT STATE ARCHITECTURE BLUEPRINT: D2 RAZOR'S EDGE
+       OFFICIAL APP BUILD VERSION 1.0 (DEVELOPER SANDBOX CORE)
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.0.0-Developer-Bench-Enabled
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Contiguous United States Bounding Gate (Grants Pass, OR Zone 8b)
+Admin_Passkey: admin
+Core_Calculations_Cron: 2-Hour Dynamic Background Execution Thread
+
+========================================================================
+1. INITIAL BOOT SCREEN DEVELOPER TEST GATE
+========================================================================
+[TEST_BENCH_INTERCEPT]
+Status: Active exclusively in Build Version 1.0. Hardcoded for absolute deletion 
+        prior to final beta compilation/production packaging.
+Component: Low-profile, high-contrast utility node labeled "[ 🛠️ RUN TEST BENCH ]" 
+           positioned underneath the core binary onboarding buttons.
+
+- INTERFACE_BEHAVIOR:
+  Action: Tapping the node initializes a localized, non-persistent staging sandbox. 
+          Bypasses standard map configuration, network validation, and passkey barriers.
+
+========================================================================
+2. DEVELOPER TEST BENCH CONTROL PANEL MECHANICALS
+========================================================================
+[DIAGNOSTIC_TIME_SLIDER]
+Mechanism: Horizontal 365-day calendar scrubber timeline bar variable.
+Operation: Modifies the system's background date index on demand. Allows the developer 
+           to fast-forward or rewind between spring planting and harvest flush cutoffs 
+           instantaneously to verify active seasonal gradient switches.
+
+[ATMOSPHERIC_&_SOIL_SIMULATOR_BLOCK]
+- METEOROLOGICAL_WEATHER_SIM: Forces incoming airport MAF sensors to spoof extreme weather loops 
+                              (e.g., Overcast, Rain, Frost, or >90 deg F High-Temperature Spikes).
+- GROUND_TRUTH_SOIL_SIM: Spoofs worker inputs across the full 1-10 circle track matrix.
+- ANALYSIS_VERIFICATION: Confirms that the internal OBD2 closed-loop fuel trims, volumetric 
+                         compensation equations, carbohydrate replacement loops, and persistent 
+                         Admin warning console alarms react instantly and correctly to mock threats.
+
+[OPTICAL_ALIGNMENT_FEEDBACK_TESTER]
+Action: Explicit bypass link to initialize camera lens viewfinder modules immediately.
+Execution: Forces the application to retrieve a mock template placeholder image from the internal 
+           sandbox sandbox container, rendering the 50% Alpha-Chroma neon-cyan silhouette ghost 
+           mask and green gyro leveling axis straight onto the active hardware display screen.
+
+========================================================================
+3. FIXED-RATIO COMPENSATION ENGINE & RESERVOIR MATRIX
+========================================================================
+[INVENTORY_FIXED_RATIO_MASTER]
+- FERTILIZER_BASE_1 (Balanced Standard):     NPK_Ratio: [ 20-20-20 ]
+- FERTILIZER_BASE_2 (Canopy/Veg Pusher):     NPK_Ratio: [ 15-5-10  ]
+- FERTILIZER_BASE_3 (Bloom/Ripening Guard):  NPK_Ratio: [ 0-5-10   ]
+- FERTILIZER_BASE_4 (Root/Flower Inducer):   NPK_Ratio: [ 10-30-20 ]
+Discrepancy_Resolution: Nutritional variation between optimal needs and stock inventory ratios is 
+                       resolved entirely by scaling the applied liquid volume (gallons), never the chemistry.
+
+========================================================================
+4. CLOSED-LOOP CARBOHYDRATE (CARB) SOIL VOLUME ENGINE
+========================================================================
+[CARBOHYDRATE_SYSTEM_PROTOCALS]
+Category_Label: "CARBS" (Interface contains strings referencing: "Molasses / Sugars / White Sugar").
+Chemical_Constant_Baseline: Refined White Sugar mass metrics.
+Task_Icons: Stacks the custom sugar symbol adjacent to hosing arrays [ 🪣 🍬 ].
+Volumetric_Replacement_Loop: If a Carbohydrate Feed [🪣 🍬] or a Fertigation event is flagged 
+                            as active for the day, the system automatically deletes and suppresses 
+                            the standard irrigation water tap icon [  ] for that species row for the 24hr cycle.
+========================================================================
+         [ MASTER COMPILATION CONCLUDED: BUILD VERSION 1.0 ENABLED ]
+========================================================================

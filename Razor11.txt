@@ -1,0 +1,45 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+         MANUAL PRECISION OVERRIDES & CIRCUIT BREAKER SYSTEMS
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+Security_Clearance: Administrative Command Tier (Passkey: admin)
+
+========================================================================
+1. ADMINISTRATIVE CONTROL TIER: OVERRIDE SYSTEMS
+========================================================================
+[MANUAL_LTFT_SLIDERS]
+Target: Intercepts and adjusts the learned Long-Term Fuel Trim (LTFT) database memory row.
+Scale_Range: Linear -25% to +25% adjustments.
+Incremental_Step: 1% adjustments per toggle click.
+Behavior: Instantly re-biases the base "Seconds of Water" calculus for the selected species 
+          without erasing historical calibration logs.
+
+[METEOROLOGICAL_MAF_BIAS]
+- WIND_VECTOR_BIAS: Adds a manual permanent offset factor (+0mph to +10mph) to incoming 
+                   regional airport forecast data streams to compensate for valley wind tunnels.
+- TEMPERATURE_BIAS: Adds a manual permanent scale offset (-5 deg F to +5 deg F) to force 
+                     localized frost/heatwave circuit alarms early.
+
+[GLOBAL_PROPERTY_WIDE_CIRCUIT_BREAKERS]
+
+- OVERRIDE_TOGGLE_A (Force Critical Saturation Ceiling):
+  Label: "FORCE CRITICAL CROP SAVING STATUS"
+  Visual: Crimson red high-visibility toggle state block.
+  Execution: Immediate system-wide lockdown. Forces the helper's Stage 2 panel to fire 
+             the "CRITICAL CROP SAVING ACTION REQUIRED" headline banner, clamping all 
+             active countdown timers to the absolute +25% volume peak runtime.
+
+- OVERRIDE_TOGGLE_B (Force Emergency Foliar Lockout):
+  Label: "FORCE EMERGENCY FOLIAR SHUTDOWN"
+  Visual: Amber high-visibility toggle state block.
+  Execution: Absolute canopy safety trigger. Suppresses 100% of active foliar spray bottle 
+             icons [💨] across every crop checklist queue item, forcing an immediate 
+             wind-drift or pre-harvest flushing safety state.
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

@@ -1,0 +1,32 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+       GHOST MASK HTML5/CSS3 LIQUID VIEWPORT RENDER CODES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.29.0-Production-Release-Locked
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+
+========================================================================
+1. VIEWPORT HUD LAYOUT MARKUP SCHEMES
+========================================================================
+[LIQUID_CAMERA_DOM_TREE]
+Aesthetic: Post-2020 Universal Layout Standard. Employs hardware-accelerated 
+           CSS Logical Properties and Short Viewport (svh) boundary parameters.
+Opacities: Hardlocks the alpha-chroma vector leaf silhouettes to exactly 50% opacity depth.
+
+- LAYER_A (Live Lens Intercept):
+  CSS_Selector: .live-lens-feed -> Routes raw lens viewfinder streams completely 
+                clear of public shared phone memory rolls, isolating pictures 
+                strictly within the internal private context sandbox path.
+
+- LAYER_B (The HUD Overlay Canvas):
+  CSS_Selector: .hud-overlay-container -> Renders neon-cyan dashed alignment lines, 
+                vector bounding grids, and system-level gyroscope circle level dots.
+  Gyro_Response: Styles colors dynamically based on gyro pitch readings. Forces shutter 
+                 node to light up exclusively when horizontal plane indicator = var(--gyro-green).
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

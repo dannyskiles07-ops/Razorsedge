@@ -1,0 +1,39 @@
+• stock shelves behind the scenes.
+
+• Zero_Stock_Lockout: If an on-hand item drops to 0.0, triggers a temporary "⚠️ Inventory Level Discrepancy" alert banner across Level 2 Admin header. Empty item text becomes heavily bolded. If unattended for 72 consecutive hours, tracking automatically suspends to a passive NULL state.
+
+• Ingestion_Reminder_Decay: Tapping "📝 GENERATE SITE SHOPPING LIST" forces Session_Counter = 0. If Session_Counter <= 3, renders frosted-glass card "📥 Check in new inventory?". If Session_Counter > 3, executes a hard visual suppression command, hiding the node completely.
+
+• Universal_Chemical_CAS_Registry_Index:
+
+• STOCK_ITEM_1: Label: "Carbs (Sugars/Molasses)" | CAS_ID: [ 57-50-1 ] | Group: Nutrient
+
+• STOCK_ITEM_2: Label: "Sodium Bicarbonate" | CAS_ID: [ 144-55-8 ] | Group: Remedy
+
+• STOCK_ITEM_3: Label: "Pure Castile Soap" | CAS_ID: [ 8001-25-0 ] | Group: Remedy
+
+• STOCK_ITEM_4: Label: "Pure Neem Oil" | CAS_ID: [ 8002-65-1 ] | Group: Remedy
+
+========================================================================
+F. THE DYNAMIC TOOL-SHED AMBIENT LAYER & SHOPPING ENGINE
+
+• IMAGE_LOOP_STATE_ENGINE: 6 ultra-compressed flat background assets switched dynamically based on clock and population. Daylight assets use natural, warm morning sunlight with floating dust motes. Nighttime assets feature a dark window pane and an overhead fluorescent shop light throwing sharp vertical shadows.
+
+• INVENTORY_STOCK_PROGRESSION: Tier 1 (Empty Baseline) shows permanent hardware vessels and Base 1 nutrition. Tier 2 (30% Growth Bump) spawns burlap sacks and brown cereal-style cardboard boxes upon initial onboarding crop confirmation. Tier 3 (60% Maximum Fulfilled State) injects a heavy bulk layer when >25% of total database species are active.
+
+• PROCUREMENT_RECEIPT_COMPILER: Tapping "📝 GENERATE SITE SHOPPING LIST" performs a [Projected Demand + Preemptive Safety Stock Buffer] - [Quantity On Hand] arithmetic pass. Instantly overwrites the old instance card to avoid list accumulation. Prints out dual tracking columns: Horizon A (7-Day tactical field safety totals) and Horizon B (Year-to-End bulk projections).
+
+• NEW_INVENTORY_INTAKE: Admin selects items one-by-one (Y/N) to log haul values. Submission form persists for exactly 3 distinct sessions before quietly decaying to prevent screen clutter. Manual data overrides burn straight in as absolute ground truth.
+
+========================================================================
+G. SYSTEM INTEGRATION & NATIVE HYBRID CONTAINER WRAPPER SPEC
+
+[HYBRID_APP_WRAPPER]
+Logic: Packages the frontend web application code framework securely inside a native webview container running on the device root drive, eliminating browser security blocks.
+
+• GYRO_SENSOR_MAPPING: Connects the device's internal physical Motion Telemetry API directly into the CSS transform matrix of the Gyro Horizon HUD Leveler ring for real-time fluid alignment tracking.
+
+• LOCAL_SANDBOX_STORAGE: Establishes a microscopic, completely offline SQLite local file database container within the secure application path (/data/user/0/app.razorsedge/files/) to permanently cache Quantity On Hand inputs, perennial crop blocks, and learned Long-Term Fuel Trims.
+========================================================================
+[ MASTER COMPILATION CONCLUDED: SEED SECURED IN RAZOR28 ]
+========================================================================

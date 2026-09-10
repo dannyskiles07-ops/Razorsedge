@@ -1,0 +1,35 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+            STREAMLINED TASK ICON SYSTEM & VISUAL DIRECTIVES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+USDA_Climate_Zone: Zone 8b
+Admin_Passkey: admin
+Background_Worker_Cron: 2-Hour Dynamic Execution Thread
+
+========================================================================
+1. STREAMLINED VISUAL TASK ICON DICTIONARY
+========================================================================
+[METHOD_ICONS]
+- FOLIAR_CANOPY_SPRAY: Symbol: [ 💨 ] (Spray Bottle) -> Direct leaf application.
+- ROOT_ZONE_POUR:      Symbol: [ 🪣 ] (Bucket Pour)   -> Direct soil application.
+- STANDARD_IRRIGATION: Symbol: [ 🚰 ] (Water Tap)     -> Direct hand-watering hosing.
+
+[FORMULATION_ICONS]
+- VEGETATIVE_GROW_N:   Symbol: [ 🟢 ] (Green Circle)  -> High-Nitrogen (Grow) nutrient base.
+- FLOWERING_BLOOM_PK:  Symbol: [ 🔴 ] (Red Circle)    -> High-Phosphorus/Potassium base.
+
+[INTERFACE_RENDER_RULES]
+Hierarchy: All quantitative text fields (SECONDS or GALLONS) are hardcoded to the 
+           maximum allowable text scaling size inside the center of the viewport panel.
+Ratio_Display: Dynamic combination lines display formulas side-by-side with localized percentages 
+               (e.g., [ 💨 ] ➔ [ 🟢 25% ] [ 🔴 75% ]) to simplify multi-barrel blending chores.
+Completion_Gateway: Helper executes tasks via the large countdown timer button, tapping it 
+                    repeatedly per plant instance until selecting the final "[DONE]" check.
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

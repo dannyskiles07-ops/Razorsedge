@@ -1,0 +1,39 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+       DATA INFRASTRUCTURE SPLIT & PREDICTIVE MOWING CODES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+System_Noise_Filter: Dual-Layer Architecture (Admin Persistent / Foreground Gated)
+
+========================================================================
+1. ADMINISTRATIVE RAW LOG DATA CONTINUITY
+========================================================================
+[ADMIN_LEDGER_RETENTION]
+Logic: Absolute pass-through logging. Core background script completely bypasses the 
+       6.0 noise gate when printing data inside the admin console password zone.
+Display_Behavior: Every cell tracking Ed Hume, Astrological Zodiac Elements, and Maria Thun 
+                  Biodynamic Rhythms remains fully visible inside the horizontal 12-month 
+                  calendar blocks, preserving a seamless trend analysis loop across all cycles.
+
+========================================================================
+2. FOREGROUND TIME-GATED REPORT ACTIONS & PROACTIVE LOOK-AHEAD
+========================================================================
+[MORNING_REPORT_INJECTION]
+Trigger: Sunrise background calculation closure thread.
+Condition: Combined Folklore Index > 6.0 / 10.0.
+Execution: Renders the active chore text box on the helper's morning dashboard screen, 
+           displaying visual crop icons and tool stamps to ensure maximum daylight execution.
+
+[EVENING_REPORT_LOOK_AHEAD_CIRCUIT]
+Trigger: Sunset background calculation thread (Executed 1 hour pre-sunset).
+Target: Evaluates the upcoming 24-hour tomorrow block coordinates (Day + 1).
+Condition: Tomorrow's Folklore Index crosses > 6.0 and flags Air/Fire elements.
+Chore_Output_Text: "📋 PRE-CHORE FORECAST NOTICE: Tomorrow looks like an optimal day for mowing, clearing briars, and managing pathways. Ready your equipment tonight."
+Placement: Displays prominently at the top of the helper's evening dashboard container.
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

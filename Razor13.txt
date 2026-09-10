@@ -1,0 +1,37 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+           INITIAL ONBOARDING SPLIT GATE ARCHITECTURE
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.7.0-Master-Unified
+Network_Architecture: Peer-to-Peer Hub & Spoke Matrix Array
+Onboarding_Protocol: Binary Gateway Selection Array
+
+========================================================================
+1. INITIAL CODE BOOT DIRECTIVES & SPLIT LOGIC
+========================================================================
+[CLEAN_INSTALLATION_INTERCEPT]
+Trigger: Fires automatically upon raw package boot if local runtime database = NULL.
+Visual: Displays two high-visibility, centered, fingerprint-sized binary action nodes.
+
+- CHOICE_NODE_A (Start Your Garden):
+  Label_Text: "🟢 START YOUR GARDEN"
+  System_Role: Master Hub Network Authority Configuration.
+  Execution_Path: Redirects instantly to Level 2 administrative setup layers. Preps the map pin, 
+                 locks the Zone 8b base, compiles the active botanical spreadsheets, unlocks 
+                 the password-protected admin center, and provisions the collaboration listener panel.
+
+- CHOICE_NODE_B (Join a Garden):
+  Label_Text: "🔵 JOIN A GARDEN"
+  System_Role: Strict Level 1 Satellite Spoke Profile.
+  Execution_Path: Completely suppresses all geographic configuration layers, file generation scripts, 
+                 and database cells. Renders a single, focused, centered alphanumeric text input block.
+  Validation_Behavior: Ingests user input string, bounces checksum validation token against the 
+                       active Master Hub Authority. Upon handshake approval, hardcodes the viewport 
+                       profile to permanent Level 1 boundaries. Entirely strips out and conceals 
+                       the "Admin" portal tab from the layout footer.
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

@@ -1,0 +1,32 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+         DEEP DIAGNOSTICS HTML5/CSS3 LIQUID VIEWPORT CODES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.35.0-Production-Release-Locked
+Current_Time_Anchor: Tuesday, September 8, 2026 (Day 251 / 114 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+
+========================================================================
+1. ADMINISTRATIVE INTERFACE LAYOUT MARKUP SCHEMES
+========================================================================
+[DEEP_DIAGNOSTICS_DOM_TREE]
+Aesthetic: Post-2020 Universal Layout Standard. Employs hardware-accelerated 
+           CSS Logical Properties and Short Viewport (svh) boundary parameters.
+Structure: Maps out the physical button elements for 'Small-Batch' and 'Macro-Batch' 
+           toggles and links them to the dynamic recipe data output tables.
+
+- CONTAINER_A (Policy Selection Frame):
+  CSS_Selectors: .strategy-toggle-row, .toggle-button
+  Logic: Renders the active layout state using high-contrast action colors. 
+         Provides instant tactile button tap feedback for field execution handlers.
+
+- CONTAINER_B (Recipe Output Display Table):
+  CSS_Selectors: .blueprint-data-table, .data-row
+  Logic: Formats output text cleanly into a stacked grid, stripping out microscopic fractional 
+         ounces and packing the information into human-scale tool lines (tbsp, cups).
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

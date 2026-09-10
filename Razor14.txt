@@ -1,0 +1,141 @@
+========================================================================
+       PROJECT STATE ARCHITECTURE BLUEPRINT: D2 RAZOR'S EDGE
+       OFFICIAL COMPLETE MASTER UNIFIED SYSTEM DESIGN REPOSITORY
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.14.0-Production-Master-Locked
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Contiguous United States Bounding Gate (Grants Pass, OR Zone 8b)
+Admin_Passkey: admin
+Core_Calculations_Cron: 2-Hour Dynamic Background Execution Thread
+
+========================================================================
+1. INTUITY SPLIT-GATE ONBOARDING & DUAL-USER SECURITY ACCESS
+========================================================================
+[INITIAL_CLEAN_BOOT_SPLIT]
+Trigger: Fires automatically upon raw package boot if local database files = NULL.
+Visual: Displays two high-visibility, centered, fingerprint-sized binary action nodes.
+
+- NODE_A (Start Your Garden):
+  Label_Text: "🟢 START YOUR GARDEN"
+  System_Role: Master Hub Network Authority Configuration (Property Master / Admin).
+  Execution: Opens map bounding-box pin selector, hardlocks Zone 8b, builds the 
+             multi-thousand-row static botanical spreadsheets, and unlocks Level 2 Admin.
+
+- NODE_B (Join a Garden):
+  Label_Text: "🔵 JOIN A GARDEN"
+  System_Role: Strict Level 1 Satellite Spoke Profile (Helper / Field Executor).
+  Execution: Suppresses all map/climate configs. Renders a single centered alphanumeric 
+             text input field for code entry. Handshakes token with Master Hub.
+
+[PRIVILEGE_ENVIRONMENT_FORK]
+- LEVEL_1 (Helper View): Unauthenticated standard field access. Restricts visibility 
+  exclusively to Stage 1 Dashboard, Stage 2 Checklist Queue (with Purple Audit), 
+  and Stage 3 15ft Eagle-Eye Lockdown view. Admin portal tab is completely stripped.
+- LEVEL_2 (Admin View): Password-secured (`admin`). Unlocks 12-month scrollable ledger, 
+  seasonal crop picker toggles, manual LTFT sliders, and global emergency kill switches.
+
+========================================================================
+2. THREE-STAGE NARRATIVE FIELD WORKFLOW SYSTEM
+========================================================================
+[STAGE_1_THE_GATEWAY_HOME_SCREEN]
+Background_Wallpaper: Ground-level garden asset view from behind a closed wooden entry gate.
+Shader_Logic: Single-photo background morphs exposure/tint to match active 2-hour score.
+              - 10/10 Day: High-contrast amber-gold dawn tint overlay.
+              - 0/10 Day: Cool, muted gray-slate exposure drop.
+              - Night Checks: Deep indigo moonlit nightscape invert layer.
+Foreground_Readouts: Frosted-glass tiles for Sunlight, Moonlight, Humidity, Rain, Grow Day.
+Navigation_Nodes: Centered massive "LET'S GET INTO THE GARDEN" body trigger button.
+
+[STAGE_2_THE_IN_THE_GARDEN_CHECKLIST]
+Background_Wallpaper: User's exact ground-level garden image (un-animated wallpaper layer).
+Intercept_Gate: Mandatory 24hr Forecast Accuracy Audit. Requires 0-10 Royal Purple (🟪) 
+               selections across Atmosphere, Moisture, and Temperature before revealing crop icons. 
+               Displays yesterday's precise AM/PM predicted digests as high-visibility reference rows.
+Interface_Queue: Centered, vertical column of fingerprint-sized circular crop icons. Tapping an 
+                icon opens that plant's specific streamlined task page. The calculated target numbers 
+                (SECONDS or GALLONS) are maximized to full viewport font scale.
+Timer_Mechanics: Tapping the maximized number text opens a full-screen dark progress overlay ring. 
+                 Tapping the ring pauses/resumes countdown. Fires an 880Hz audio chime at 00s, 
+                 then auto-resets. Helper executes per plant block instance until selecting "[DONE]".
+                 Completed crop icons instantly collapse and hide from the visible queue list.
+
+[STAGE_3_THE_EAGLE_EYE_LOCKDOWN]
+Trigger_Condition: Checklist Queue Balance = Exactly 0 Active Icons.
+Background_Wallpaper: Angled bird's-eye perspective observing identical garden layout from 
+                      15ft above the ground while keeping the true horizon line visible.
+UI_Behavior: Input panels completely dissolve. Serves as automated confirmation screen.
+Text_Banner: Static encouraging message: "Keep up the good work. All tasks complete."
+Lock_State: Frame locks in this state entirely until the next Sun/Sunset cycle triggers.
+
+========================================================================
+3. HORIZON-SCROLLING LEDGER & TRIPLE-CONVERGENCE FOLKLORE MATRIX
+========================================================================
+[ADMIN_CALENDAR_HISTORY_LEDGER]
+Layout: Horizontal left-to-right scrollable 12-month calendar grid (Newest = Left).
+Cell_Telemetry_Stack:
+  - Row 1: Text Day, Weekday, and Day of the Year (e.g., Friday, October 16 / Day 289).
+  - Row 2: Symmetrical Astronomy Track (Sun hours and Moon hours displayed completely adjacent).
+  - Row 3: Moon Phase details + custom Magnet-with-Roots Icon (🧲🌱) showing Gravity score.
+  - Column 4 (Left): Stacked historical data list (High/Low Temp, Humidity, Rain Probability).
+  - Column 4 (Right): Large Weather Period Status Icon (💧 Wet, ☀️ Dry, ☁️ Cloudy, ❄️ Wintry). 
+                      Perfectly centered vertically and horizontally to fill that side of the box.
+  - Row 5: Almanac & Ed Hume Overwinter commands. Crop text names hidden, replaced entirely 
+           by unique visual crop icons paired with action tools (🌱 Shovel, ✂️ Shears, 🧺 Cornucopia).
+
+[TRIPLE_CONVERGENCE_FOLKLORE_ENGINE]
+Pillars: 1) Ed Hume PNW Moon Booklets. 2) Zodiac Elemental Constellation Paths (Water, Earth, 
+          Air, Fire). 3) Maria Thun Biodynamic Cosmic Plant Nodes (Root, Leaf, Flower, Fruit).
+Admin_Retention: Admin calendar columns display 100% of raw unscreened folklore statistics daily.
+Helper_Noise_Gate: If combined folklore index drops <= 6.0/10, the task pane completely collapses 
+                   and hides from the helper's Stage 1 home screen layout to prevent workspace clutter.
+PM_Look_Ahead: Preceding Evening Handshake Protocol scans tomorrow's channels 1 hour pre-sunset. 
+               If tomorrow scores > 6.0 for mowing/weeding elements, the evening screen flashes: 
+               "📋 PRE-CHORE FORECAST NOTICE: Tomorrow looks like an optimal day for mowing..."
+
+========================================================================
+4. AUTOMOTIVE CLOSED-LOOP OBD2 VOLUMETRIC TUNING ENGINE
+========================================================================
+[CLOSED_LOOP_TRIM_MATH]
+Analogy: Core Database + Ingested Forecasts = MAF Sensor | Helper Ground Truth = O2 Sensor.
+Sensor_Inputs: Helper's 1-10 Plant Vitality (🟩) and Plant Color (🟩) circle bubble buttons 
+               act as the live diagnostic O2 feedback loops. Perfect target = 10/10 bubble.
+Equation_Weights: Helper's ground-truth reports carry a x2 mathematical weight over weather deviances.
+
+- DAILY_STFT_EQUATION (Short-Term Fuel Trim):
+  Formula: STFT = [((2 * Error_Truth) + (1 * Error_Weather)) / 3] * KL
+  Coefficients: Cycles 1-5: KL = 1.0 (Full steps); Cycles 6-15: KL = 0.2; Cycles 16+: KL = 0.05
+
+- PERMANENT_LTFT_EQUATION (Long-Term Fuel Trim Memory):
+  Condition_A (Consecutive 10/10 Perfect Green Bubbles): LTFT_New = LTFT_Old - 0.05 (Lean cut optimization)
+  Condition_B (Input Drops Below 10/10 Limit):  LTFT_New = LTFT_Old + 0.20 (Positive volume safety surge)
+  Safety_Clamping_Gate: Hardcoded restrictions clamp all output values strictly within a +/-25% baseline ceiling.
+  Open_Loop_Estimation: Unsubmitted reports auto-assume 100% execution to preserve mathematical cell alignment.
+
+[HUMAN-SCALE IRRIGATION QUANTIZATION]
+Resolution: App automatically rounds internal back-end percentages to coarse, practical garden actions:
+  - Root-Zone Liquid Bucket Feeds: Clamped to flat Quarter-Gallon steps (0.25, 0.50, 0.75, 1.00 Gal).
+  - Canopy Foliar Mist Sprays: Rounds to target sweep phrases ("Spray a little more/less than last time").
+  - Hose Countdown Timers: Converts trim steps into flat +/- 2 to 3 second shifts on the countdown clock.
+
+========================================================================
+5. FIXED-RATIO COMPENSATION ENGINE & RESERVOIR MATRIX
+========================================================================
+[INVENTORY_FIXED_RATIO_MASTER]
+Registry: Mixing, blending, or altering raw barrel chemical concentrations on the fly is strictly forbidden.
+  - FERTILIZER_BASE_1 (Balanced Standard):     NPK_Ratio: [ 20-20-20 ] -> General constant feed matrix.
+  - FERTILIZER_BASE_2 (Canopy/Veg Pusher):     NPK_Ratio: [ 15-5-10  ] -> High-Nitrogen growth acceleration.
+  - FERTILIZER_BASE_3 (Bloom/Ripening Guard):  NPK_Ratio: [ 0-5-10   ] -> Zero-Nitrogen late flower/winterization.
+  - FERTILIZER_BASE_4 (Root/Flower Inducer):   NPK_Ratio: [ 10-30-20 ] -> High-Phosphorus bloom initiation.
+Discrepancy_Resolution: Nutritional variation between optimal needs and stock inventory ratios is 
+                       resolved entirely by scaling the applied liquid volume (gallons), never the chemistry.
+
+[DYNAMIC_RESERVOIR_MIXING_ASSISTANT]
+Hardware_Menu: Mist Sprayers (1G, 2G, 15G, Custom) | Bulk Tanks (5G, 55G, 250G, Custom).
+Ingestion_Logic: Cross-references structural plant population totals gathered during seasonal onboarding 
+                 queries with the daily active coarse quarter-gallon plant prescription to calculate 
+                 the precise total liquid batch volume required for a specific crop event.
+Visual_Command: Matches total batch gallons to the selected tool markings and outputs a clean display banner:
+                "💨 15 GALLON SPRAYER | MIX 15 GALLONS OF SOLUTION | ADD [Calculated] SCOOPS BASE 1".

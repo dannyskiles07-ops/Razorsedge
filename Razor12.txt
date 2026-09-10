@@ -1,0 +1,72 @@
+========================================================================
+       PROJECT STATE ARCHITECTURE BLUEPRINT: D2 RAZOR'S EDGE
+       COMPLETE UNIFIED RELEASE VERSION: LOGIC, MATH & SECURITY
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.3.0-Master-Unified
+Geospatial_Anchor: Contiguous United States Boundary Gate (Grants Pass, OR Zone 8b)
+Admin_Passkey: admin
+Core_Calculations_Cron: 2-Hour Dynamic Background Execution Thread
+
+========================================================================
+1. THREE-STAGE NARRATIVE WORKFLOW & SECURITY ARCHITECTURE
+========================================================================
+[LEVEL_1_HELPER_ENVIRONMENT]
+Access_Gate: Non-authenticated public entry layer.
+- Stage 1 (The Gateway): Displays 1-10 predictive tiles. Large "Let's Get Into the Garden" button.
+- Stage 2 (The Audit & Checklist): Forced entry gate requiring 0-10 Royal Purple (🟪) forecast 
+  accuracy ratings across Atmosphere, Moisture, and Temperature before revealing crop icons. 
+  Checklist processes as a single-file, centered, fingerprint-sized row queue of fruit/flower icons.
+  Tapping an icon opens the timer page: features maximal text size targets and an animated circular progress 
+  countdown overlay with an 880Hz audio alert note at 00s. Completed crop icons hide instantly.
+- Stage 3 (The Eagle-Eye Lock): Automated transition upon checklist clearance. Background shifts 
+  to a 15ft high bird's-eye horizon view. Displays "Keep up the good work. All tasks complete." 
+  Locks down interface elements until next sunrise/sunset cycle.
+
+[LEVEL_2_ADMINISTRATIVE_ENVIRONMENT]
+Access_Gate: Authenticated entry footer node requiring passkey: admin.
+- Visual Ledger: Horizontal left-to-right scrollable 12-month calendar grid block. Shows adjacent 
+  sun/moon hours, moon phase, magnet-roots gravity tracker (🧲🌱), and a large vertically/horizontally 
+  centered weather status summary icon (Wet, Dry, Cloudy, Wintry) filling the card's right column.
+- Seasonal Crop Picker: Matrix overlay to toggle species rows ON or ACTIVE. Double-NO logic maps 
+  crops rejected across two consecutive seasons to "Disliked", muting background alert flags.
+- Manual Overrides: Exposes mechanical sliders to scale species LTFT values by -25% to +25%. 
+  Houses global crimson red "FORCE CRITICAL CROP SAVING STATUS" ceiling caps (+25% water runtime) 
+  and amber "FORCE EMERGENCY FOLIAR SHUTDOWN" canopy sprays absolute kill switches.
+
+========================================================================
+2. AUTOMOTIVE-STYLED CLOSED-LOOP OBD2 WATER ALGORITHMS
+========================================================================
+[TRIM_MATH_EQUATIONS]
+Closed_Loop_Analogy: DB + Forecast = MAF Sensor | Helper Ground Truth = O2 Feedback.
+Target_Stoichiometry: 10 / 10 Ground Moisture Score = Absolute Perfect Soil Baseline.
+Equation_Weights: Ground Truth feedback holds x2 mathematical weight over weather model deviances.
+
+- STFT_FORMULA (Short-Term Fuel Trim):
+  Inputs: Error_Truth = (10.0 - Helper Input) | Error_Weather = (Historical Baseline - Actual Forecast)
+  Equation: STFT = [((2 * Error_Truth) + (1 * Error_Weather)) / 3] * KL
+  Learning_Coefficients: Cycles 1-5: KL = 1.0 (Full steps) | Cycles 6-15: KL = 0.2 | Cycles 16+: KL = 0.05
+
+- LTFT_FORMULA (Long-Term Fuel Trim Memory):
+  Condition_A (Consecutive 10/10 Perfect Scores): LTFT_New = LTFT_Old - 0.05 (Negative step to lean limit)
+  Condition_B (Input Drops Below 10/10 Limit):  LTFT_New = LTFT_Old + 0.20 (Positive safety saturation trim)
+  Safety_Clamping_Gate: Hardcoded restrictions clamp all output values strictly within a +/-25% baseline ceiling.
+  Open_Loop_Estimation: Unsubmitted reports auto-assume 100% execution to preserve mathematical cell alignment.
+
+========================================================================
+3. QUANTITATIVE VEGETABLE FERTIGATION MANAGEMENT GRID
+========================================================================
+[VEGETABLE_FEED_REGISTRY]
+Primary_Unit: Total Liquid Gallons Per Event (No hosing runtime clocks allowed).
+- CANNABIS:  Base_Water: 50s | Base_Feed: 5.0 Gallons (Root) / Quarter-Gallon Scale (Daily Foliar)
+             Wind Circuit Breaker: Automatically mutes spray bottle icon [💨] if wind sensor > 5.0 mph.
+             September Gradient: Sept 1-5: 50/50 | Sept 6-10: 25/75 | Sept 11-14: 10/90 | Sept 15+: 0/100
+             Flush Gate: Mid-October completely cuts canopy foliar spray access to insulate flower heads from mold.
+- TOMATO:    Base_Water: 40s | Base_Feed: 3.0 Gallons (Balanced Fruit Feed Every 14 Days Post Fruit-Set Only)
+- PEPPER:    Base_Water: 25s | Base_Feed: 2.0 Gallons (Balanced Fruit Feed Every 14 Days Post Blossom Only)
+- CAULIFLOWER: Weeks 1-3: 0.0 Gal | Week 4+: 2.0 Gallons High-N. Head formation applies nitrogen hard-lockout.
+========================================================================
+            [ PROJECT ARCHITECTURE UNIFICATION: 100% COMPLETE ]
+========================================================================

@@ -1,0 +1,51 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+          MASTER CANNABIS FOLIAR & EXTENSION FEED MATRIX
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+USDA_Climate_Zone: Zone 8b
+Admin_Passkey: admin
+Background_Worker_Cron: 2-Hour Dynamic Execution Thread
+
+========================================================================
+1. CANNABIS ADVANCED FOLIAR & SOIL INTERLOCKS
+========================================================================
+[FOLIAR_CANOPY_ENGINE]
+Sustained_Wind_Limit: 5.0 mph (Hard circuit breaker logic rules).
+Wind_Override_Behavior: IF Wind Sensor > 5.0 mph, immediately suppress foliar 
+                         action rows from active helper check-in panels.
+Measurement_Increment: Quarter-Gallon Units (0.25, 0.50, 0.75, 1.00 Gal).
+Seasonal_Ramp: Incremental quarter-gallon volume increases from spring to Aug 31.
+
+[SEPTEMBER_FOLIAR_GRADIENT_RULES]
+- CYCLE_BLOCK_A (Sept 1 to Sept 5):   Ratio: 50% Grow (N) / 50% Bloom (P/K)
+- CYCLE_BLOCK_B (Sept 6 to Sept 10):  Ratio: 25% Grow (N) / 75% Bloom (P/K)
+- CYCLE_BLOCK_C (Sept 11 to Sept 14): Ratio: 10% Grow (N) / 90% Bloom (P/K)
+- CYCLE_BLOCK_D (Sept 15 to Mid-Oct): Ratio:  0% Grow (N) / 100% Bloom (P/K)
+- ABSOLUTE_FLUSH_GATE (Mid-October):  Trigger automated complete foliar cutoff. 
+                                      Mute all foliar display nodes to prevent mold.
+
+[SOIL_LIQUID_ENGINE]
+Measurement_Increment: Whole-Gallon Units (1.0, 2.0, 3.0 Gal).
+Interval: Persistent multi-season cycle tracking built into local cannabis profiles.
+
+========================================================================
+2. VEGETABLE FERTIGATION BASELINE REGISTRY
+========================================================================
+[CRUCIFEROUS_CAULIFLOWER_LOGIC]
+Phase_1 (Weeks 1-3): Allocation: 0.0 Gallons (Rely on soil biology).
+Phase_2 (Week 4 Post-Transplant): Allocation: 2.0 Gallons (High Nitrogen 21-0-0).
+Phase_3 (3-Week Recurring Loop): Allocation: 2.0 Gallons (Leaf push side-dress).
+Crown_Circuit_Breaker: The moment crown formation is verified by helper data, 
+                       permanently kill all Nitrogen feeding instructions.
+
+[FRUITING_NIGHTSHADE_LOGIC]
+- TOMATO_ROW: Base: 3.0 Gallons | NPK: Low-N / High-K (5-10-10) | Interval: 14 Days (Post Fruit-Set Only)
+- PEPPER_ROW: Base: 2.0 Gallons | NPK: Balanced Fruit Feed     | Interval: 14 Days (Post Blossom Only)
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

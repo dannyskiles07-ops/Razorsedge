@@ -1,0 +1,106 @@
+========================================================================
+       PROJECT STATE ARCHITECTURE BLUEPRINT: D2 RAZOR'S EDGE
+       COMPLETE SYSTEM LOGIC, MECHANICALS, AND WORKFLOW CODES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.0.0-Release-Locked
+Geospatial_Anchor: Contiguous United States Boundary Gate (Grants Pass, OR Zone 8b)
+Admin_Passkey: admin
+Core_Calculations_Cron: 2-Hour Dynamic Background Execution Thread
+
+========================================================================
+1. THREE-STAGE NARRATIVE WORKFLOW & PERSPECTIVE MATRIX
+========================================================================
+[STAGE_1_THE_GATEWAY_HOME_SCREEN]
+Background_Wallpaper: Ground-level garden asset view from behind a closed wooden gate.
+Shader_Logic: Single-photo background morphs exposure/tint to match active 2-hour score.
+              - 10/10 Day: High-contrast amber-gold dawn tint overlay.
+              - 0/10 Day: Cool, muted gray-slate exposure drop.
+              - Night Checks: Deep indigo moonlit nightscape invert layer.
+Foreground_Readouts: Frosted-glass tiles for Sunlight, Moonlight, Humidity, Rain, Grow Day.
+Navigation_Nodes: Centered large "LET'S GET INTO THE GARDEN" button.
+                  Centered password-protected "ADMIN" tab inside the footer frame.
+
+[STAGE_2_THE_IN_THE_GARDEN_CHECKLIST]
+Background_Wallpaper: User's exact ground-level garden image (un-animated wallpaper layer).
+Interface_Queue: Centered, single-file vertical column of fingerprint-sized circular 
+                buttons with unique stylized illustrations of active crop fruits/blossoms.
+Lifecycle_Logic: Icons populate based on annual seasonal questionnaire parameters.
+                 Tapping an icon opens that crop's specific input and execution screen.
+                 Upon hitting Submit for a species, that icon immediately hides from the 
+                 queue. Interface redirects back to the collapsing vertical checklist.
+
+[STAGE_3_THE_EAGLE_EYE_LOCKDOWN]
+Trigger_Condition: Checklist Queue Balance = Exactly 0 Active Icons.
+Background_Wallpaper: Angled bird's-eye perspective observing identical garden layout from 
+                      15ft above the ground while keeping the true horizon line visible.
+UI_Behavior: Input panels completely dissolve. Serves as automated confirmation screen.
+Text_Banner: Static encouraging message: "Keep up the good work. All tasks complete."
+Lock_State: Frame locks in this state entirely until the next Sun/Sunset cycle triggers.
+
+========================================================================
+2. HELPER CHORE SYMBOL MATRIX & COUNTDOWN TIME SYSTEMS
+========================================================================
+[TASK_DICTIONARY_ICONS]
+- FOLIAR_CANOPY_SPRAY: Symbol: [ 💨 ] (Spray Bottle) -> Active leaf misting.
+- ROOT_ZONE_POUR:      Symbol: [ 🪣 ] (Bucket Pour)   -> Active soil liquid feed.
+- STANDARD_IRRIGATION: Symbol: [ 🚰 ] (Water Tap)     -> Active hand-hose watering.
+- VEGETATIVE_GROW_N:   Symbol: [ 🟢 ] (Green Circle)  -> High-Nitrogen nutrient formula.
+- FLOWERING_BLOOM_PK:  Symbol: [ 🔴 ] (Red Circle)    -> High-Phosphorus/Potassium formula.
+
+[INTERFACE_RENDER_RULES]
+Visual_Importance: Target values (SECONDS or GALLONS) are scaled to maximum text size.
+Execution_Trigger: Target text acts as a button. Tapping it opens a circular countdown 
+                   timer overlay. Fires an 880Hz audio chime at 00s, then instantly resets.
+                   Helper repeats timer execution per plant until toggling "[DONE]".
+
+========================================================================
+3. PRESCRIPTIVE CLOSED-LOOP OBD2 IRRIGATION & FERTIGATION
+========================================================================
+[OBD2_WATER_TUNING_STRATEGY]
+Closed_Loop_Analogy: DB + Forecast = MAF Sensor | Helper Ground Truth = O2 Feedback.
+Target_Stoichiometry: 10 / 10 Ground Score is established as the absolute Perfect Soil target.
+Tuning_Protocol: Top-Down Saturated Fuel Trim. Initializes rich at +25% safety cap 
+                 and trims back water volume (-5% steps) upon consecutive 10/10 scores. 
+                 Any input < 10/10 drops trim loop and hits a +20% volume safety boost.
+Learning_Curve: Cycles 1-5 = +/-25% steps; Cycles 6-15 = +/-5% steps; Cycles 16+ = +/-1%.
+Open_Loop_Estimation: Unsubmitted days default to assuming 100% of prescribed water 
+                       seconds were administered to protect data cells from corruption.
+
+[CANNABIS_FOLIAR_GRADIENT_RULES]
+Wind_Circuit_Breaker: IF Wind Sensor > 5.0 mph, immediately hide foliar rows from panels.
+                      Flash warning: "Foliar Spray Suspended: Wind exceeds safe 5 mph limit."
+September_Steps: Sept 1-5: 50% Grow / 50% Bloom | Sept 6-10: 25% Grow / 75% Bloom
+                 Sept 11-14: 10% Grow / 90% Bloom | Sept 15-Mid Oct: 0% Grow / 100% Bloom
+Flush_Gate: Mid-October completely cuts all foliar instruction access to prevent flower mold.
+
+[QUANTITATIVE_FEEDING_REGISTRY]
+- CANNABIS:  Base_Water: 50s | Base_Feed: 5.0 Gallons (Root) / Quarter-Gallon Scale (Foliar)
+- TOMATO:    Base_Water: 40s | Base_Feed: 3.0 Gallons (Balanced Fruit Feed Every 14 Days)
+- PEPPER:    Base_Water: 25s | Base_Feed: 2.0 Gallons (Balanced Fruit Feed Every 14 Days)
+- CAULIFLOWER: Weeks 1-3: 0 Gal | Week 4+: 2.0 Gallons High-N. Head formation locks out N.
+Atmospheric_Cap: All final calculations restricted strictly to a daily variance limit of +/-25%.
+
+========================================================================
+4. ENVIRO-TELEMERY & HISTORY ARCHIVING LOGS
+========================================================================
+[SOLAR_LUNAR_CORE]
+Solar_Intensity: Localized 0-10 scale (Winter Solstice = 0.0 | Summer Solstice = 10.0).
+Historical_Decay: Records <= 10 yrs weighted at 1.0; older records weighted at 0.75.
+Rain_Intercept: Forecast rain > 0.05 inches clamps morning/evening indices immediately to 1.0.
+Humidity_Gate: Rainfall Index = 0.0 IF AND ONLY IF rain volume = 0 AND Relative Humidity < 25%.
+Wind_Vectors: Destination reading format (N = blowing TO the North FROM the South).
+
+[ADMIN_CALENDAR_HISTORY_LEDGER]
+Layout: Horizontal left-to-right scrollable 12-month calendar grid (Newest = Left).
+Cell_Telemetry: Displays Numerical Day, adjacent Sun/Moon hours, Moon phase, and custom 
+                Magnet-with-Roots (🧲🌱) Gravity Score icon.
+Macro_Status_Icon: Large 24hr weather summary icon (💧 Wet, ☀️ Dry, ☁️ Cloudy, ❄️ Wintry) 
+                   perfectly centered vertically/horizontally on the right side of the card.
+Hume_Database_Sync: Pre-compiled local almanac comments; updates via internet every 200 days.
+Annual_Archive: Visual log compresses to static 16-bit bitmask string on Dec 31 at 11:59 PM.
+========================================================================
+            [ PROJECT ARCHITECTURE BLUEPRINT SECURED ]
+========================================================================

@@ -1,0 +1,147 @@
+========================================================================
+       PROJECT STATE ARCHITECTURE BLUEPRINT: D2 RAZOR'S EDGE
+       OFFICIAL MASTER PRODUCTION SNAPSHOT (RELEASE VERSION 1.20.0)
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+System_Version: 1.20.0-Production-Release-Locked
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Contiguous United States Bounding Gate (Grants Pass, OR Zone 8b)
+Admin_Passkey: admin
+Core_Calculations_Cron: 2-Hour Dynamic Background Execution Thread
+
+========================================================================
+1. POLITE PEER-TO-PEER MULTIPLAYER & MEDIA CONCEALMENT LAYER
+========================================================================
+[ISOLATED_STORAGE_PIPELINE]
+Logic: Absolute media isolation protocol. The system completely cuts access to 
+       the device's public media gallery or shared system paths to remain polite 
+       to satellite helper personal devices.
+
+- OVERRIDE_ROUTINE (In-App Sandbox Enforcement):
+  Execution: Invokes the native OS camera via an internal, isolated temporary file pointer 
+             clamped strictly inside the app's secure local cache directory.
+  Public_Roll_Behavior: HARD BLOCKED. 0 bytes are broadcast or saved to the phone's 
+                        public photo gallery, camera roll, or native cloud backup loops.
+  Discard_Cleanup: The exact millisecond the frame is committed and appended into the low-byte 
+                   compressed crop binary append blob (.blob), the temporary raw cache file 
+                   is instantly wiped and hard-deleted from local memory. The photo dataset 
+                   remains completely private and accessible exclusively inside the app context.
+
+[COLLABORATION_CONTROL_TOGGLE]
+Active_State: IF Toggled [OFF], multiplayer network logic is dead. IF ON, generates temporary 
+              6-digit invite keys (e.g., RZR-982) expiring in 24 hours to sync helper devices.
+Midnight_Sweep: Daily collection loop pulls text-based data bitmask packets from paired satellite 
+                helper phones at 23:59:00. Missing packets seamlessly trigger the Open-Loop Bridge.
+
+========================================================================
+2. THREE-STAGE NARRATIVE FIELD WORKFLOW SYSTEM
+========================================================================
+[STAGE_1_THE_GATEWAY_HOME_SCREEN]
+Background_Wallpaper: Ground-level garden asset view from behind a closed wooden entry gate.
+Shader_Logic: Single-photo background morphs exposure/tint to match active 2-hour score.
+Foreground_Readouts: Frosted-glass tiles for Sunlight, Moonlight, Humidity, Rain, Grow Day.
+Navigation_Nodes: Centered massive "LET'S GET INTO THE GARDEN" body trigger button.
+
+[STAGE_2_THE_IN_THE_GARDEN_CHECKLIST]
+Background_Wallpaper: User's exact ground-level garden image (un-animated wallpaper layer).
+Intercept_Gate: Mandatory 24hr Forecast Accuracy Audit. Requires 0-10 Royal Purple (🟪) 
+               selections across Atmosphere, Moisture, and Temperature before revealing crop icons. 
+Interface_Queue: Centered column of fingerprint-sized circular crop icons. Calculated targets 
+                (SECONDS or GALLONS) are maximized to full viewport font scale inside active nodes.
+Timer_Mechanics: Tapping the maximized number text opens a full-screen dark progress overlay ring. 
+                 Fires an 880Hz audio chime at 00s, then auto-resets. Completed icons hide instantly.
+
+[STAGE_3_THE_EAGLE_EYE_LOCKDOWN]
+Trigger_Condition: Checklist Queue Balance = Exactly 0 Active Icons.
+Background_Wallpaper: Angled bird's-eye perspective observing identical garden layout from 
+                      15ft above the ground while keeping the true horizon line visible.
+Text_Banner: Static encouraging message: "Keep up the good work. All tasks complete."
+
+========================================================================
+3. METEOROLOGICAL PHOTOGENIC INTERLOCK & TIMELINE ENGINE
+========================================================================
+[WEATHER_CAMERA_TRIGGER]
+Ingestion_Metrics: Background core continuously monitors sky fraction coverage and atmospheric vapor.
+Trigger_Threshold: If cloud cover tracks between 20% and 50% during mid-morning or golden hour cycles, 
+                   the app arms the timeline capture overlay prompt upon Stage 2 submission completion.
+
+[GHOST_IMAGE_ALIGNMENT_MASK]
+Logic: Invoking the timeline prompt pulls Anchor Image #1 from the isolated app database layer.
+Visual: Overlays a 50% transparent Alpha-Chroma Silhouette Mask of the reference photo directly 
+        over the live camera view screen. Helper aligns live plant architecture with ghost lines.
+
+========================================================================
+4. FIXED-RATIO COMPENSATION ENGINE & RESERVOIR MATRIX
+========================================================================
+[INVENTORY_FIXED_RATIO_MASTER]
+Registry: Mixing, blending, or altering raw barrel chemical concentrations on the fly is forbidden.
+  - FERTILIZER_BASE_1 (Balanced Standard):     NPK_Ratio: [ 20-20-20 ]
+  - FERTILIZER_BASE_2 (Canopy/Veg Pusher):     NPK_Ratio: [ 15-5-10  ]
+  - FERTILIZER_BASE_3 (Bloom/Ripening Guard):  NPK_Ratio: [ 0-5-10   ]
+  - FERTILIZER_BASE_4 (Root/Flower Inducer):   NPK_Ratio: [ 10-30-20 ]
+Discrepancy_Resolution: Nutritional variation between optimal needs and stock inventory ratios is 
+                       resolved entirely by scaling the applied liquid volume (gallons), never the chemistry.
+
+[DYNAMIC_RESERVOIR_MIXING_ASSISTANT]
+Hardware_Menu: Mist Sprayers (1G, 2G, 15G, Custom) | Bulk Tanks (5G, 55G, 250G, Custom).
+Ingestion_Logic: Cross-references structural plant population totals gathered during seasonal onboarding 
+                 queries with the daily active coarse quarter-gallon plant prescription to calculate 
+                 the precise total liquid batch volume required for a specific crop event.
+Visual_Command: Matches total batch gallons to the selected tool markings and outputs a clean display banner:
+                "💨 15 GALLON SPRAYER | MIX 15 GALLONS OF SOLUTION | ADD [Calculated] SCOOPS".
+
+========================================================================
+5. CLOSED-LOOP CARBOHYDRATE (CARB) SOIL VOLUME ENGINE
+========================================================================
+[CARBOHYDRATE_SYSTEM_PROTOCALS]
+Category_Label: "CARBS" (Interface contains strings referencing: "Molasses / Sugars / White Sugar").
+Chemical_Constant_Baseline: Refined White Sugar mass metrics.
+Global_Currency_Constant: 5.0 Gallons = 50 Seconds of open valve flow time.
+Task_Icons: Stacks the custom sugar symbol adjacent to hosing arrays [ 🪣 🍬 ].
+
+- LINEAR_WEATHER_MAF_INTERLOCK:
+  Logic: Hard operational atmospheric cutoff circuit. If live background weather forecast 
+         tracks precipitation, high-humidity, or prolonged overcast periods, the system 
+         automatically triggers a hidden state and conceals the Carb panel to protect soil.
+
+- VOLUMETRIC_REPLACEMENT_LOOP:
+  Logic: Absolute hydration safety gate. If a Carbohydrate Feed [🪣 🍬] or a Fertigation event 
+         is flagged as active for the day, the system automatically deletes and suppresses 
+         the standard irrigation water tap icon [  ] for that species row for the 24hr cycle.
+
+- SEASONAL_RATIO_PROGRESSION (Cannabis Core Recipe):
+  Phase_1 (Spring to Mid-August): App-calculated low-dose microbial baseline.
+  Phase_2 (Late August to September): Deploys 5.0 Gallon bucket pour per plant hole every 3rd or 4th day.
+  Phase_3 (October Harvest Peak Swell): Volume scales to 10.0 Gallons for documented large plants. 
+           Nutrient concentration ratio ramps aggressively up to a ceiling of 1.0 lb of sugar 
+           per 1.0 Gallon of applied water solution, subject to clear weather validation locks.
+
+========================================================================
+6. AUTOMOTIVE CLOSED-LOOP OBD2 VOLUMETRIC TUNING ENGINE
+========================================================================
+[CLOSED_LOOP_TRIM_MATH]
+Sensor_Inputs: Helper's 1-10 Plant Vitality (🟩) and Plant Color (🟩) circle bubble buttons 
+               act as the live diagnostic O2 feedback loops. Perfect target = 10/10 bubble.
+Equation_Weights: Helper's ground-truth reports carry a x2 mathematical weight over weather deviances.
+Safety_Clamping_Gate: Hardcoded restrictions clamp all output values strictly within a +/-25% baseline ceiling.
+Open_Loop_Estimation: Unsubmitted reports auto-assume 100% execution to preserve mathematical cell alignment.
+
+[HUMAN-SCALE IRRIGATION QUANTIZATION]
+Resolution: App automatically rounds internal back-end percentages to coarse, practical garden actions:
+  - Root-Zone Liquid Bucket Feeds: Clamped to flat Quarter-Gallon steps (0.25, 0.50, 0.75, 1.00 Gal).
+  - Canopy Foliar Mist Sprays: Rounds to target sweep phrases ("Spray a little more/less than last time").
+  - Hose Countdown Timers: Converts trim steps into flat +/- 2 to 3 second shifts on the countdown clock.
+
+========================================================================
+7. ADMINISTRATIVE MANUAL OVERRIDES & VAULT LEDGERS
+========================================================================
+[MANUAL_PRECISION_OVERRIDE_PANEL]
+- Sliders: Manual LTFT offset bars to alter baseline hosing runtimes by -25% to +25% per species row.
+- Bias Knobs: Meteorological calibration adjustments (+0 to +10mph Wind Bias | -5°F to +5°F Temperature Bias).
+- Circuit Breakers: Red "FORCE CRITICAL CROP SAVING STATUS" switch clamps countdown timers to the 
+  +25% saturation ceiling. Amber "FORCE EMERGENCY FOLIAR SHUTDOWN" toggle vanishes all spray bottle icons [💨].
+
+[ADMIN_ARCHIVE_VAULT]
+Rollover_Trigger: December 31st at 23:59:59 Central system clock.

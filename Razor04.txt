@@ -1,0 +1,32 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+         LOCKED EMERGENCY OVERRIDES & FERTIGATION PROTOCOLS
+========================================================================
+
+[CRITICAL_EMERGENCY_LOCK]
+Trigger_Threshold: Soil Moisture <= 3/10 OR Ambient Temperature > 90 deg F.
+Locked_Headline_Label: "🚨 CRITICAL CROP SAVING ACTION REQUIRED"
+Locked_Body_Directive: "Extreme drying or thermal shock has breached safety limits. Maximize runtime immediately to protect root networks from collapsing."
+
+========================================================================
+2. QUANTITATIVE RULES-BASED FERTIGATION MATRIX
+========================================================================
+[FERTIGATION_ENGINE]
+Primary_Measurement_Unit: Total Liquid Gallons Per Event (No seconds tracking).
+Data_Structure: Zero empty cells permitted. Static baseline sheet handles allocation.
+Atmospheric_Adjustment_Logic: 
+  - High Evaporation Multiplier: Trims total quantitative feeding volume toward 
+    the -25% boundary to mitigate root-zone salt accumulation and tip burn.
+  - Saturated/Leaching Multiplier: Scales applied quantitative feed up toward 
+    the +25% boundary to counteract nutrient flushing through soil matrix.
+Safety_Limit_Cap: Hard linear restriction clamped strictly to Baseline * (1 +/- 0.25).
+
+[FERTIGATION_BOTANICAL_ROWS]
+- CANNABIS_ROOT_ZONE: Base_Feed: 5.0 Gallons | Schedule: 7-Day Cycle Interval
+- TOMATO_ROOT_ZONE:   Base_Feed: 3.0 Gallons | Schedule: 14-Day Cycle Interval
+- PUMPKIN_ROOT_ZONE:  Base_Feed: 4.0 Gallons | Schedule: 10-Day Cycle Interval
+- PEPPER_ROOT_ZONE:   Base_Feed: 2.0 Gallons | Schedule: 14-Day Cycle Interval
+- BERRY_ROOT_ZONE:    Base_Feed: 3.5 Gallons | Schedule: 21-Day Cycle Interval
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================

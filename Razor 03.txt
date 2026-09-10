@@ -1,0 +1,53 @@
+========================================================================
+             PROJECT STATE BACKUP: D2 RAZOR'S EDGE
+          SEASONAL CHORE ALGORITHMS & TEXTUAL DIRECTIVES
+========================================================================
+
+[METADATA]
+Project_Name: D2 Razor's Edge
+Current_Time_Anchor: Monday, September 7, 2026 (Day 250 / 115 Days Left)
+Geospatial_Anchor: Grants Pass, Oregon, USA (97527)
+USDA_Climate_Zone: Zone 8b
+Admin_Passkey: admin
+Background_Worker_Cron: 2-Hour Dynamic Execution Thread
+
+========================================================================
+1. SEASONAL QUESTIONNAIRE LIFECYCLE
+========================================================================
+[QUESTIONNAIRE_FLOW]
+Interface: Semi-transparent frosted-glass overlay appearing on Step 1 Home Gated Screen.
+Content: Row-by-row toggle list displaying unique crop icon + seasonal validation prompt.
+Logic: 
+  - IF USER SELECTS [YES]: Plant icon appends to fingerprint checklist queue.
+  - IF USER SELECTS [NO]: Plant icon is entirely suppressed from helper queue. 
+  - Double-No Toggle: Selecting [NO] across two consecutive seasons permanently toggles 
+    profile to "Disliked", muting alert arrays until manual admin key reset.
+
+========================================================================
+2. CLOSED-LOOP OBD2 CHORE TEXT COMMAND GENERATOR
+========================================================================
+[PRESCRIPTIVE_TEXT_RULES]
+
+- RULE_1 (Steady-State Saturation Maintenance):
+  Condition: Ground Truth Soil Moisture = 10/10 | Weather = Sunny/Dry Evaporation.
+  Headline_Text: "💧 System Trim Active: Soil is beautifully saturated. Maintain optimal root dampness."
+  Execution_Command: "Apply current baseline prescription of [Calculated Seconds] Seconds of water evenly across the root zone."
+
+- RULE_2 (Saturated Cutback Optimization):
+  Condition: Ground Truth Soil Moisture = 10/10 (Consecutive Logs) | Humidity > 75%.
+  Headline_Text: "📉 Negative Fuel Trim Implemented: Atmosphere is humid and soil is holding maximum moisture."
+  Execution_Command: "Reducing water runtime by 5% to find the lean boundary line. Deliver a minimized blast of [Calculated Seconds] Seconds."
+
+- RULE_3 (Lean Deficit Safety Correction):
+  Condition: Ground Truth Soil Moisture < 10/10 (Values 4/10 to 8/10).
+  Headline_Text: "⚠️ Positive Fuel Trim Triggered: Soil profile is leaning out and drying."
+  Execution_Command: "Activating the moisture safety circuit breaker. Increase saturation immediately by delivering a heavy application of [Calculated Seconds] Seconds (+20% volume kick)."
+
+- RULE_4 (Critical Drought / Thermal Shock Alarm):
+  Condition: Ground Truth Soil Moisture <= 3/10 OR Ambient Air Temperature > 90 deg F.
+  Headline_Text: "🚨 CRITICAL RECOVERY COMMAND: Root structures are experiencing dry stress or high temperature proportional decay."
+  Execution_Command: "Maximum watering runtime required to prevent crop shock. Deliver full saturated safety ceiling of [Calculated Seconds] Seconds (+25% absolute max cap)."
+
+========================================================================
+                   [ END OF DATA RESTORE SNAPSHOT ]
+========================================================================
