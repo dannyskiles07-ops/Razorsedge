@@ -1,6 +1,88 @@
 ========================================================================
-FILE 1: Razor01.txt
+FILE 1: project_d2_razors_edge_state.txt
 ========================================================================
+
+{
+  "project_name": "Project D2 Razor's Edge",
+  "timestamp_context": {
+    "current_date": "Sunday, September 6, 2026",
+    "day_of_year": 249,
+    "days_left": 116
+  },
+  "location": {
+    "baseline": "Nursery Lane, Grants Pass, Oregon 97527",
+    "coordinates": "42.4393° N, 123.3306° W"
+  },
+  "ui_layout": {
+    "header": "RAZOR'S EDGE (Centered, Horizontally Stretched, Weighty/Thick, Right-Slanted/Italic, constrained to screen margins)",
+    "date_tile": "Persistent global top line header showing [Day 249 / 116 Left]",
+    "backgrounds": "Dynamic Sunrise (Morning UI) & Dynamic Sunset (Evening UI)",
+    "components": "Semi-transparent frosted glass panels floating smoothly over imagery",
+    "navigation": "Footer bar with centered secure 'Admin' tab locked behind text password 'admin'"
+  },
+  "data_ingestion_layer": {
+    "fault_tolerance": "Uses rolling averages and decay continuity logic to handle missed/null session logs seamlessly",
+    "schedule": "2x daily prompt checkpoints (Morning at Sunrise, Evening 1 hour before Sunset)",
+    "sliders_0_to_10": {
+      "1_2_soil_moisture": "Morning & Evening (0 = Saturated Mud, 10 = Optimal Crumbly Dampness, bone-dry never happens)",
+      "3_4_dew_levels": "Morning & Evening (0 = Bone Dry Leaves, 5 = Moderate Mist, 10 = Heavy Saturation/Rain-like)",
+      "5_6_plant_vitality": "Morning & Evening (0 = Floppy/Drooping/Limp, 5 = Neutral/Relaxed, 10 = Reaching/Sun-Tracking)",
+      "7_8_plant_color": "Morning & Evening (0 = Limey Yellow/Nutrient Deficient, 5 = Standard Green, 10 = Deep Glossy Forest Green)",
+      "9_10_rice_straw_dampness": "Morning & Evening (0 = Crisp & Dry/Crunchy, 5 = Damp Shield, 10 = Wet Wet Wet/Sponge)",
+      "11_12_weather_accuracy_feedback": "Morning & Evening (0 = Inaccurate/Unfavorable, 5 = Moderately Accurate, 10 = Spot On/Optimal Ground Calibration)"
+    }
+  },
+  "background_scoring_modules": {
+    "solar_index": {
+      "planetary_geometry": "Winter Solstice (24.1° angle) clamped to 0.0/10; Summer Solstice (71.0° angle) locked at 10.0/10",
+      "historical_baseline": "Averaged from multi-sources (WU, NCEI, PRISM) split into Morning/Evening. Temporal weight: <=10 years age = 1.0, >10 years age = 0.75",
+      "real_time_forecast": "Blended model averages (0.05 in rain trigger clamps index to 1.0, otherwise scales 5.0 to 10.0 based on cloud fraction)"
+    },
+    "lunar_index": {
+      "theoretical_phase": "0 = New Moon, 10 = Full Moon illumination fraction",
+      "gravitational_intensity": "0 = Apogee (Furthest/weak pull), 10 = Perigee (Closest/strong capillary pull)",
+      "temporal_history": "Time-decay weighted (1.0 vs 0.75) historical moon presence",
+      "night_sky_forecast": "0.05 in rain gate limits to 1.0, else 5.0 (overcast) to 10.0 (clear moon visibility)"
+    },
+    "rainfall_index": {
+      "scale": "0 = Bone dry, 10 = 110% of multi-decade historical max rainfall on this day",
+      "interlock_circuit_breaker": "Requires both absolute 0 accumulation AND Relative Humidity <25% to register a true 0 score"
+    },
+    "relative_humidity_index": {
+      "scale": "0 = Arid (<10% RH), 10 = Fully Saturated (>95% RH/Fog)",
+      "output": "Home screen foreground dashboard tile + Admin morning/evening split streams"
+    },
+    "temperature_index": {
+      "daytime_highs": "Perfect 80°F - 90°F yields 10/10 score. Values >90°F degrade proportionally",
+      "nighttime_lows": "Perfect >55°F (warmer is better). Freezing thresholds degrade toward 0/10",
+      "proportional_degradation": "Temperatures Day or Night exceeding 90°F trigger background score decay penalties"
+    },
+    "wind_vector_index": {
+      "sustained_wind": "0 = No wind, 10 = >15mph sustained",
+      "gust_warnings": "Any predicted gusts >15mph output as highlighted text warnings in red directly beneath wind score",
+      "reversed_vectors": "Reported as final target heading direction (N = blowing TO the North FROM the South, NW = blowing TO Northwest FROM Southeast)"
+    }
+  },
+  "master_aggregation_algorithms": {
+    "predicted_grow_day": {
+      "definition": "Unified 24hr score combining all indexes. Ideal 10/10 requires max solar intensity, optimal humidity, 0 rain, and long nocturnal lunar tracking",
+      "wind_decay_penalty": "Sustained winds >5mph for >4 hours OR any gusts >15mph apply a heavy evaporation penalty reducing total grow day value"
+    }
+  },
+  "historical_data_accumulation_log": {
+    "format": "Compact daily data byte containing: Numerical day of month, Actual High/Low Temp, Actual Grow Day Score, and Predicted Morning Forecast Info",
+    "ui_presentation": "Separate page linked via Admin tab. Rendered as scrollable monthly calendar blocks (Left = Newest, Right = Oldest)",
+    "file_management_strategy": "Saves state as a flattened structural image matrix updated daily, deleting old frame to compress file footprint"
+  }
+}
+
+========================================================================
+                    [ END OF FILE 1 ]
+========================================================================
+
+================================================================================
+FILE 2: Razor01.txt
+================================================================================
 
 ========================================================================
               PROJECT STATE BACKUP: D2 RAZOR'S EDGE
@@ -147,11 +229,11 @@ Compression_Protocol: 16-Bit Byte Mask file compression system. Flat visual cell
 Global_Location_Link: Small text link named "Location" hard-coded to the absolute bottom of 
                       the Admin panel to allow coordinate resets via password authentication.
 ========================================================================
-                    [ END OF DATA RESTORE SNAPSHOT ]
+                    [ END OF FILE 2 ]
 ========================================================================
 
 ================================================================================
-FILE 2: Razor02.txt
+FILE 3: Razor02.txt
 ================================================================================
 
 ========================================================================
@@ -313,3 +395,6 @@ Cell_Data_Arrangement:
   - Column 4 (Right): Large Weather Period Status Icon (💧 Wet, ☀️ Dry, ☁️ Cloudy, ❄️ Wintry). 
                       Perfectly centered vertically and horizontally to fill that side of the box.
   - Row 5: Almanac & Ed Hume Overwinter commands. Crop text names hidden, replaced entirely
+========================================================================
+                    [ END OF FILE 3 ]
+========================================================================
